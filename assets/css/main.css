@@ -1,13 +1,19 @@
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../font/CenturyGothic.ttf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: CenturyGothic, sans-serif;
+   /* border: 1px solid #f00*/
 }
 
 body {
    
     overflow-x: hidden;
-    font-family: "century Gothic", sans-serif
+    font-family: CenturyGothic, sans-serif
 }
 a {
     color: #fff
@@ -95,7 +101,7 @@ a:hover {
 }
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
-    font-family: "Century Gothic", sans-serif;
+    font-family:CenturyGothic, sans-serif;
     font-size: 17px;
     padding: 5px
 }
@@ -108,7 +114,7 @@ a:hover {
     right: 0px;
     background-size: cover !important;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 }
 .red-bg {
     background: #990000;
@@ -173,4 +179,44 @@ font-size: 22px;
 padding: 15px 20px;
     border-radius: 20px;
     font-weight: bold
+}
+footer {
+    float: left;
+    width: 100%;
+    padding:5% 0 2% 18%; 
+    background: #373737;
+    color: #fff
+}
+.lista-footer-esquerda {
+    list-style: none;
+    border-left: 4px solid #900;
+    padding-left: 10px
+}
+.lista-footer-direita {
+    list-style: none;
+    border-left: 4px solid #900;
+    padding-left: 10px
+}
+
+.lista-footer-esquerda li, .lista-footer-direita li{
+    margin: 10px 0
+}
+.social-footer {
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 20px;
+    display: table
+}
+.social-footer li{
+display: inline;
+padding: 5px;
+margin: 5px;
+    
+}
+.footer-bottom {
+    float: left;
+    width: 100%;
+    background: #900;
+    text-align: center;
+    padding: 15px 0 0 60px;
 }
