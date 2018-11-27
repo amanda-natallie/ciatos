@@ -29,14 +29,14 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse text-center ">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html" class="hvr-wobble-bottom">
+                        <li><a href="grupo-ciatos.php" class="hvr-wobble-bottom">
                                 <br>
                                 <p><img src="assets/img/menu/1.png" alt="Home" title="Home">
                                     <br class="hidden-xs">
                                     Grupo Ciatos</p>
                             </a>
                         </li>
-                        <li><a href="index.html" class="hvr-wobble-bottom">
+                        <li><a href="" class="hvr-wobble-bottom">
                                 <p><img src="assets/img/menu/2.png" alt="Home" title="Home">
                                     <br class="hidden-xs">
                                     Ciatos<br class="hidden-xs"> Contabilidade</p>

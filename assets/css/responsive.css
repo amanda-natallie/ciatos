@@ -1,3 +1,24 @@
+@media (min-width:1025px){
+    .botao-acao-banner {
+        margin-left: -160px
+    }
+    footer {
+        padding:5% 0 2% 5%; 
+
+    }
+    .banner_home {
+        background-size: 100% !important
+    }
+    .logo-footer{
+        margin-left: -1.6%   
+    }
+    .social-footer {
+        margin: 20px auto
+    }
+    .about-page * {
+    padding-left: 60px;
+    }
+}
 @media (width:1024px){
     body {
         max-width: 100%;
@@ -25,6 +46,16 @@
     }
     .logo {
         margin-top: 5%
+    }
+    .social-footer {
+        width: 300px;
+        text-align: left;
+    }
+    .about-page p {
+        padding-left: 60px;
+    }
+    .about-page * {
+    padding-left: 60px;
     }
 }
 @media (width:768px){
@@ -60,6 +91,25 @@
         margin-top: 5%;
         margin-left:15%
     }
+    .logo-footer {
+        padding-top: 5%
+    } 
+    .social-footer {
+        margin: 20px auto;
+        display: table
+    }
+    .footer-bottom p {
+        padding-left: 50px
+    }
+    .links-footer-left {
+        margin-left: 10%
+    }
+    .about-page {
+        padding-left: 70px;
+    }
+    .about-page * {
+    padding-left: 60px;
+    }
 }
 @media (width:736px){
     .navbar-header .in {
@@ -71,7 +121,7 @@
     .row-banner {
         margin-top: 2%
     }
-     .links-right {
+    .links-right {
         float: left;
         margin-top: 10px;
         margin-left: 10%
@@ -81,12 +131,25 @@
         float: left;
     }
     .banner_home {
-   height: 650px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+        height: 650px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+    .links-right {
+        float: left;
+        margin-top: 20px;
+        margin-left: 13%
+    }
+    .logo-footer a img{
+        padding-top: 5%;
+        margin-left: -5%;
+        float: left;
+        clear: both;
+        display: table
+    }
+
 }
 @media (width:414px){
     * {
@@ -103,5 +166,26 @@
         float: left;
         margin-top: 20px;
         margin-left: 13%
+    }
+    .logo-footer a img{
+        padding-top: 5%;
+        margin-left: -5%;
+        float: left;
+        clear: both;
+        display: table
+    } 
+    .about-page *{
+
+        padding-left: -10%;
+    }
+    .about-page {
+        padding-top: 15%;
+        padding-left: -10%;
+    }
+    .about-page p {
+        margin: 0
+    }
+    .about-banner {
+        height: 150vh
     }
 }

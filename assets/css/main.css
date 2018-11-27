@@ -222,3 +222,30 @@ margin: 5px;
     text-align: center;
     padding: 15px 0 0 60px;
 }
+
+/*paginas internas*/
+.about-page  {
+    padding: 20px 0
+}
+.about-page * {
+    color: #fff
+}
+.about-page p {
+    font-size: 30px;
+    padding-left: 20px;
+}
+.heading-about{
+    margin-top: 20px;
+    font-size: 60px;
+    -webkit-text-stroke-width: 4px;
+   -webkit-text-stroke-color: white;
+}
+.heading-about hr{
+    width: 315px;
+    border:2px solid #900;
+    margin-bottom: 20px;
+    background-color: #900;
+    color: #900 !important;
+    margin: 20px auto;
+    display: table
+}
