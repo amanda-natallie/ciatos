@@ -109,7 +109,7 @@ a:hover {
 /**/
 .banner_home {
     background-repeat: no-repeat !important;
-    background-position: top center;
+    background-position: top left;
     position: absolute;
     right: 0px;
     background-size: cover !important;
@@ -195,7 +195,9 @@ footer {
 .lista-footer-direita {
     list-style: none;
     border-left: 4px solid #900;
-    padding-left: 10px
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 18px
 }
 
 .lista-footer-esquerda li, .lista-footer-direita li{
