@@ -2,7 +2,7 @@
     .botao-acao-banner {
         margin-left: -160px
     }
-    
+
     .banner_home {
         background-size: 100% !important
     }
@@ -13,7 +13,7 @@
         margin: 20px auto
     }
     .about-page * {
-    padding-left: 60px;
+        padding-left: 60px;
     }
 }
 @media (width:1024px){
@@ -52,11 +52,21 @@
         padding-left: 60px;
     }
     .about-page * {
-    padding-left: 60px;
+        padding-left: 60px;
     }
     .servicos-about {
-    padding: 5% 0 5% 9%;
+        padding: 5% 0 5% 9%;
+    }
+    .section-home {
+    padding: 0 0 0 10%;
+  
 }
+.servicos-sede-virtual {
+    padding-left: 10%
+}
+ .about-daciatos-banner {
+        height: 170vh
+    }
 }
 @media (width:768px){
     body, html {
@@ -108,13 +118,20 @@
         padding-left: 70px;
     }
     .about-page * {
-    padding-left: 60px;
+        padding-left: 60px;
     }
-      .servicos-about {
-    padding: 5% 0 5% 19%;
+    .servicos-about {
+        padding: 5% 0 5% 19%;
+    }
+    .last-row .last {
+        margin-left: 23%
+    }
+    .section-home {
+    padding: 0 0 0 15.5%;
+  
 }
-.last-row .last {
-    margin-left: 23%
+.servicos-sede-virtual {
+    padding-left: 0
 }
 }
 @media (width:736px){
@@ -155,6 +172,14 @@
         clear: both;
         display: table
     }
+     .special-h1 {
+        left: 0;
+        top: 60px;
+        padding: 30px 30px 50px 30px;
+    }
+    .service-banner {
+        height: 360vh
+    }
 
 }
 @media (width:414px){
@@ -193,5 +218,16 @@
     }
     .about-banner {
         height: 150vh
+    }
+    .about-daciatos-banner {
+        height: 250vh
+    }
+    .special-h1 {
+        left: 0;
+        top: 60px;
+        padding: 30px 30px 50px 30px;
+    }
+    .service-banner {
+        height: 260vh
     }
 }

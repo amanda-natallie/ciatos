@@ -36,6 +36,16 @@
                     </div>
                 </div>
             </div>
+            <div class="clearfix"></div>
+            <section class="section-home">
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <img src="assets/img/servicos-quem-somos.jpg" alt="" title="" class="img-responsive pull-right">
+                    </div>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+            
           <?php require 'footer.php'; ?>
         </div>
         <div class="clearfix"></div>
