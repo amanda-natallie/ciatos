@@ -2,10 +2,7 @@
     .botao-acao-banner {
         margin-left: -160px
     }
-    footer {
-        padding:5% 0 2% 5%; 
-
-    }
+    
     .banner_home {
         background-size: 100% !important
     }
@@ -57,6 +54,9 @@
     .about-page * {
     padding-left: 60px;
     }
+    .servicos-about {
+    padding: 5% 0 5% 9%;
+}
 }
 @media (width:768px){
     body, html {
@@ -110,6 +110,12 @@
     .about-page * {
     padding-left: 60px;
     }
+      .servicos-about {
+    padding: 5% 0 5% 19%;
+}
+.last-row .last {
+    margin-left: 23%
+}
 }
 @media (width:736px){
     .navbar-header .in {
