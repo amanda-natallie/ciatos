@@ -338,7 +338,7 @@ align-items: center;
     font-size: 60px;
     border-bottom-right-radius: 40%;
     position: absolute;
-    top: -3.3%;
+    top: -3%;
     left: 130px
 }
 .servicos-sede * {
@@ -381,7 +381,7 @@ align-items: center;
     height: 50px;
 }
 .service-banner, .cont-online-banner {
-    height: 160vh
+    height: 120vh
 }
 .servicos-sede-virtual {
   padding-bottom: 5%  
@@ -524,7 +524,6 @@ align-items: center;
 }
 .ptb-servicos {
     padding-top: 5%;
-    padding-bottom: 5%
 }
 .nav-tabs>li.active>a {
     border: 0 !important
@@ -604,4 +603,11 @@ align-items: center;
 }
 .padding-left {
     margin-left: 5%
+}
+.full-width {
+    width: 100%;
+    float: left;
+}
+.white-bg {
+    background: #fff !important
 }
