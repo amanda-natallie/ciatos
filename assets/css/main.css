@@ -122,7 +122,7 @@ box-shadow: 20px 0px 31px 0px rgba(20,18,20,0.5);
     height: 120vh;
 }
 .red-bg {
-    background: #990000;
+    background: #990000 !important;
 }
 .flotada {
     float: right;
@@ -254,14 +254,27 @@ margin: 5px;
     margin: 20px auto;
     display: table
 }
+.heading-about-inverse {
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.heading-about-inverse hr{
+    width: 315px;
+    border:2px solid #900;
+    margin-bottom: 20px;
+    background-color: #900;
+    color: #900 !important;
+    margin: 20px auto;
+    display: table
+}
 .servicos-about {
     float: left;
     padding: 5% 0 5% 5.5%;
     width: 100%;
     background: #fff;
 }
-.servicos-about .heading-about{
-    
+.servicos-about .heading-about, .heading-about-inverse{
     color: #333;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: #333;
@@ -282,6 +295,11 @@ margin: 5px;
     font-weight: bold;
     text-align: center;
 display: flex;
+justify-content: center; 
+align-items: center; 
+}
+.align-middle {
+    display: flex;
 justify-content: center; 
 align-items: center; 
 }
@@ -368,3 +386,118 @@ align-items: center;
  .about-daciatos-banner {
         height: 190vh
     }
+ .redline {
+    width: 315px;
+    border:2px solid #900;
+    margin-bottom: 20px;
+    background-color: #900;
+    color: #900 !important;
+    margin: 20px auto;
+    clear: both
+}
+.ptb-home {
+    padding: 50px 0 50px 5.5% !important
+}
+.ptb-home p {
+    font-style: italic;
+    text-align: center;
+    color: #333;
+    font-size: 18px
+}
+.stroke-red-button {
+    background: #900;
+    padding: 20px 30px;
+    color: #fff;
+    margin: 30px auto;
+    display: table;
+    font-size: 18px
+}
+.white {
+    color: white !important
+}
+.img-center {
+    margin: 10px auto;
+    display: table
+}
+.whys {
+    padding: 0 20%
+}
+.whys p {
+    color: white;
+    font-style: normal;
+    font-size: 21px
+}
+.gray-bg {
+    background: #efefef !important
+}
+/* Tabs panel */
+.tabbable-panel {
+ 
+  padding: 10px;
+  margin-left: 130px
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+  font-size: 20px;
+  text-transform: uppercase
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #900;
+  font-weight: bold
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px ;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+.ptb-servicos {
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+.nav-tabs>li.active>a {
+    border: 0 !important
+}
+.tab-pane {
+    height: 450px
+}
