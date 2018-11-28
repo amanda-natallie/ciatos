@@ -11,8 +11,16 @@
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
         <link rel="stylesheet" href="assets/css/hover-min.css">
+        <link rel="stylesheet" href="assets/plugins/remodal/remodal-default-theme.css">
+        <link rel="stylesheet" href="assets/plugins/remodal/remodal.css">
+        <link rel="stylesheet" href="assets/plugins/owl-carousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/plugins/owl-carousel/assets/owl.theme.default.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.4/zepto.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="assets/plugins/remodal/remodal.min.js"></script>
+        <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+
 
 
     </head>
@@ -54,7 +62,7 @@
                                     Sede Virtual</p>
                             </a>
                         </li>
-                        <li><a href="index.html" class="hvr-wobble-bottom">
+                        <li><a href="planos.php" class="hvr-wobble-bottom">
                                 <p><img src="assets/img/menu/5.png" alt="Home" title="Home">
                                     <br class="hidden-xs">
                                     Planos</p>
