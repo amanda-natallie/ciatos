@@ -12,6 +12,10 @@
 .relative {
     position: relative
 }
+.navbar-brand img {
+    max-width: 100px;
+    margin-bottom: -30px
+}
 body {
    
     overflow-x: hidden;
@@ -59,7 +63,8 @@ box-shadow: 20px 0px 31px 0px rgba(20,18,20,0.5);
     .navbar-fixed-right .navbar-collapse {
         padding-right: 0;
         padding-left: 0;
-        max-height: none
+        max-height: none;
+       
     }
     .navbar-fixed-left .navbar-collapse .navbar-nav,
     .navbar-fixed-right .navbar-collapse .navbar-nav {
@@ -107,8 +112,11 @@ box-shadow: 20px 0px 31px 0px rgba(20,18,20,0.5);
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
     font-family:CenturyGothic, sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     padding: 5px
+}
+.navbar-inverse .navbar-nav>li>a>p>img {
+    width: 36px
 }
 
 /**/
@@ -259,7 +267,6 @@ margin: 5px;
 }
 .heading-about{
     margin-top: 20px;
-    font-size: 60px;
     -webkit-text-stroke-width: 4px;
    -webkit-text-stroke-color: white;
 }
@@ -345,21 +352,7 @@ align-items: center;
     float: left;
     color: white;
 }
-.servicos-sede{
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-}
-.servicos-sede:not(.align-right) {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-}
-.servicos-sede .align-right {
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-}
+
 .servicos-sede img {
     width: 160px;
     height: 160px;
@@ -379,6 +372,9 @@ align-items: center;
 }
 .space-50 {
     height: 50px;
+}
+.plano-banner {
+    height: 90vh
 }
 .service-banner, .cont-online-banner {
     height: 120vh
@@ -402,7 +398,7 @@ align-items: center;
     line-height: 20px !important;
 }
  .about-daciatos-banner {
-        height: 190vh
+        height: auto
     }
  .redline {
     width: 315px;
@@ -610,4 +606,26 @@ align-items: center;
 }
 .white-bg {
     background: #fff !important
+}
+
+.owl-controls {
+    position: absolute;
+    padding: 0;
+    top: -10px;
+    left: -5%;
+    width: 110%;
+}
+.owl-nav {
+    position: relative;
+}
+.owl-prev, .owl-next {
+    top:-3px;
+    position: absolute;
+    padding:26.3vh 15px  !important;
+}
+.owl-prev {
+    left: 0
+}
+.owl-next {
+    right: 0
 }

@@ -1,11 +1,11 @@
 <?php require 'header.php'; ?>
-<a href="#" class="flotada flot-um hvr-forward hidden-xs">
+<a href="login.php" class="flotada flot-um hvr-forward hidden-xs">
     <h4>SOU CLIENTE CIATOS!</h4>
 </a>
-<a  href="" class="flotada flot-dois hvr-forward hidden-xs">
+<a  href="captura.php" class="flotada flot-dois hvr-forward hidden-xs">
     <h6>CONTATO</h6>
 </a>
-<div class="banner_home" style="background: url(assets/img/bg_banner.png)">
+<div class="banner_home" id="home" style="background: url(assets/img/bg_banner.png)">
 
     <div class="container">
         <div class="row">
@@ -45,7 +45,7 @@
         </div>
     </section>
     <div class="clearfix"></div>
-    <div class="about-banner" style="background: url(assets/img/bg_grupo_ciatos.jpg)">
+    <div class="about-banner" id="grupo-ciatos" style="background: url(assets/img/bg_grupo_ciatos.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center about-page">
@@ -102,7 +102,7 @@
     </div>
 
     <div class="clearfix"></div>
-    <section class="section-home ptb-home">
+    <section class="about-home ptb-home ipad-padding-left">
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="col-lg-12 ">
@@ -123,7 +123,7 @@
         </div>
     </section>
     <div class="clearfix"></div>
-    <div class="about-daciatos-banner" style="background: url(assets/img/contabilidade.jpg)">
+    <div class="about-daciatos-banner" id="ciatos-contabilidade" style="background: url(assets/img/contabilidade.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center about-page">
@@ -201,50 +201,50 @@
                                         <div class="space-50"></div>
                                         <h4>Societário</h4>
                                         <ul>
-                                            <li>Contábil</li>
-                                            <li>Fiscal</li>
-                                            <li>Departamento Pessoal</li>
-                                            <li>Paralegal</li>
+                                            <li>Fusão</li>
+                                            <li>Cisão</li>
+                                            <li>Incorporação</li>
+                                            <li>Constituição de S/A</li>
                                         </ul>
                                     </div>
                                     <div class="tab-pane" id="tab3" style="background: url(assets/img/cont-services/bg/3.png) top right no-repeat; background-size: 60%">
                                         <div class="space-50"></div>
                                         <h4>Gestão de Pessoas</h4>
                                         <ul>
-                                            <li>Contábil</li>
-                                            <li>Fiscal</li>
-                                            <li>Departamento Pessoal</li>
-                                            <li>Paralegal</li>
+                                            <li>Terceirização de Departamento Pessoal</li>
+                                            <li>Departamento Pessoal On-line</li>
+                                            <li>Parcelamento de INSS</li>
+                                            <li>Regularização Trabalhista</li>
                                         </ul>
                                     </div>
                                     <div class="tab-pane" id="tab4" style="background: url(assets/img/cont-services/bg/4.png) top right no-repeat; background-size: 60%">
                                         <div class="space-50"></div>
                                         <h4>Gestão Financeira</h4>
                                         <ul>
-                                            <li>Contábil</li>
-                                            <li>Fiscal</li>
-                                            <li>Departamento Pessoal</li>
-                                            <li>Paralegal</li>
+                                            <li>Gestão Financeira ERP</li>
+                                            <li>Finanças de ME e EPP</li>
+                                            <li>Planejamento Financeiro</li>
+                                            <li>Consultoria Financeira</li>
                                         </ul>
                                     </div>
                                     <div class="tab-pane" id="tab5" style="background: url(assets/img/cont-services/bg/5.png) top right no-repeat; background-size: 60%">
                                         <div class="space-50"></div>
                                         <h4>Acessoria Tributária</h4>
                                         <ul>
-                                            <li>Contábil</li>
-                                            <li>Fiscal</li>
-                                            <li>Departamento Pessoal</li>
-                                            <li>Paralegal</li>
+                                            <li>Planejamento Tributário</li>
+                                            <li>Auditoria Fiscal e Contábil</li>
+                                            <li>Parcelamento de Tributos</li>
+                                            <li>Consultoria Tributária</li>
                                         </ul>
                                     </div>
                                     <div class="tab-pane" id="tab6" style="background: url(assets/img/cont-services/bg/1.png) top right no-repeat; background-size: 60%">
                                         <div class="space-50"></div>
                                         <h4>SPED, SINTEGRA  E-SOCIAL</h4>
                                         <ul>
-                                            <li>Contábil</li>
-                                            <li>Fiscal</li>
-                                            <li>Departamento Pessoal</li>
-                                            <li>Paralegal</li>
+                                            <li>Inteligência Fiscal</li>
+                                            <li>Certificados Digitais</li>
+                                            <li>Auditoria de SPED</li>
+                                            <li>Regularização Tributária</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -260,7 +260,7 @@
 
 
         <div class="clearfix"></div>
-        <section class="section-home ptb-home" style="margin-top: -10% !important">
+        <section class="about-home white-bg ptb-home ipad-padding-left" style="margin-top: -10% !important">
             <div class="container-fluid">
                 <div class="row-fluid">
                     <div class="col-lg-12 ">
@@ -280,79 +280,79 @@
             </div>
         </section>
         <div class="clearfix"></div>
-        <div class="cont-online-banner relative" style="background: url(assets/img/bg_sede_virtual.jpg)">
-    <h1 class="special-h1">Contabilidade<br>On-line<br><p>A Ciatos Contabilidade oferece prestação de <br>serviços online por um preço acessível</p></h1>
-                <div class="container-fluid servicos-sede-virtual">
-                    <div class="row">
-                        <div class="space-50"></div>
-                        <div class="space-50"></div>
-                        <div class="space-50"></div>
-                        <div class="space-50 visible-sm visible-xs"></div>
-                        <div class="space-50 visible-sm visible-xs"></div>
-                        <div class="space-50 visible-sm visible-xs"></div>
-                        <div class="space-50  visible-xs"></div>
-                        <div class="space-50  visible-xs"></div>
-                        
-                        
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right servicos-sede align-left">
-                            <div class="col-md-4 col-sm-6 image col-xs-12">
-                                <img src="assets/img/example.png" alt="" title="" class="img-responsive">
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <h2>ABERTURA DE EMPRESA</h2>
-                                <p>A Ciatos Contabilidade abre a sua empresa.</p>
-                            </div>
+        <div class="cont-online-banner relative" id="contabilidade-online" style="background: url(assets/img/bg_sede_virtual.jpg)">
+            <h1 class="special-h1">Contabilidade<br>On-line<br><p>A Ciatos Contabilidade oferece prestação de <br>serviços online por um preço acessível</p></h1>
+            <div class="container-fluid servicos-sede-virtual">
+                <div class="row">
+                    <div class="space-50"></div>
+                    <div class="space-50"></div>
+                    <div class="space-50"></div>
+                    <div class="space-50 visible-sm visible-xs"></div>
+                    <div class="space-50 visible-sm visible-xs"></div>
+                    <div class="space-50 visible-sm visible-xs"></div>
+                    <div class="space-50  visible-xs"></div>
+                    <div class="space-50  visible-xs"></div>
+
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right servicos-sede align-left">
+                        <div class="col-md-4 col-sm-6 image col-xs-12">
+                            <img src="assets/img/example.png" alt="" title="" class="img-responsive">
                         </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    
-                    <div class="row">
-                        
-                        <div class="col-md-6 servicos-sede ">
-                            <div class="col-md-6 col-sm-6 image col-xs-12">
-                                <img src="assets/img/example.png" alt="" title="" class="img-responsive">
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <h2>CONTABILIDADE GERAL</h2>
-                                <p>A Ciatos Contabilidade presta serviços contábeis, fiscais, departamento pessoal e paralegal para empresas optantes pelo Simples Nacional, Lucro Presumido e Lucro Real, de todos os segmentos.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right servicos-sede">
-                            <div class="col-md-4 col-sm-6 image col-xs-12">
-                                <img src="assets/img/example.png" alt="" title="" class="img-responsive">
-                            </div>
-                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <h2>SOFTWARE FINANCEIRO</h2>
-                                <p>A Ciatos Contabilidade, em parceria com empresas de softwares de gestão fuinanceira, oferece aos seus clientes uma gestão financeira interligada com a gestão fiscal, possibilidade o Balanço Patrimonial em tempo real.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    
-                    <div class="row">
-                        
-                        <div class="col-md-6 servicos-sede ">
-                            <div class="col-md-6 col-sm-6 image col-xs-12">
-                                <img src="assets/img/example.png" alt="" title="" class="img-responsive">
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <h2>SEDE VIRTUAL</h2>
-                                <p>A Ciatos Contabilidade, além de abrir a sua empresa, oferece a possibilidade de Sede Virtual aos seus clientes.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right servicos-sede">
-                            <div class="col-md-4 col-sm-6 image col-xs-12">
-                                <img src="assets/img/example.png" alt="" title="" class="img-responsive">
-                            </div>
-                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <h2>SOFTWARE DE DEPARTAMENTO PESSOAL</h2>
-                                <p>A Ciatos Contabilidade oferece a seus clientes a possibilidade de ter endereço comercial e fiscal para que sua empresa receba correspondências.</p>
-                            </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h2>ABERTURA DE EMPRESA</h2>
+                            <p>A Ciatos Contabilidade abre a sua empresa.</p>
                         </div>
                     </div>
                 </div>
-              
-</div>
+                <div class="clearfix"></div>
+
+                <div class="row">
+
+                    <div class="col-md-6 servicos-sede ">
+                        <div class="col-md-6 col-sm-6 image col-xs-12">
+                            <img src="assets/img/example.png" alt="" title="" class="img-responsive">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h2>CONTABILIDADE GERAL</h2>
+                            <p>A Ciatos Contabilidade presta serviços contábeis, fiscais, departamento pessoal e paralegal para empresas optantes pelo Simples Nacional, Lucro Presumido e Lucro Real, de todos os segmentos.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right servicos-sede">
+                        <div class="col-md-4 col-sm-6 image col-xs-12">
+                            <img src="assets/img/example.png" alt="" title="" class="img-responsive">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h2>SOFTWARE FINANCEIRO</h2>
+                            <p>A Ciatos Contabilidade, em parceria com empresas de softwares de gestão fuinanceira, oferece aos seus clientes uma gestão financeira interligada com a gestão fiscal, possibilidade o Balanço Patrimonial em tempo real.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="row ">
+
+                    <div class="col-md-6 servicos-sede ">
+                        <div class="col-md-6 col-sm-6 image col-xs-12">
+                            <img src="assets/img/example.png" alt="" title="" class="img-responsive">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h2>SEDE VIRTUAL</h2>
+                            <p>A Ciatos Contabilidade, além de abrir a sua empresa, oferece a possibilidade de Sede Virtual aos seus clientes.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right servicos-sede">
+                        <div class="col-md-4 col-sm-6 image col-xs-12">
+                            <img src="assets/img/example.png" alt="" title="" class="img-responsive">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h2>SOFTWARE DE DEPARTAMENTO PESSOAL</h2>
+                            <p>A Ciatos Contabilidade oferece a seus clientes a possibilidade de ter endereço comercial e fiscal para que sua empresa receba correspondências.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
         <div class="clearfix"></div>
         <section class="section-home ptb-home">
             <div class="container-fluid">
@@ -375,7 +375,7 @@
             </div>
         </section>
         <div class="clearfix"></div>
-        <div class="service-banner relative" style="background: url(assets/img/bg_sede_virtual.jpg)">
+        <div class="service-banner relative" id="sede-virtual" style="background: url(assets/img/bg_sede_virtual.jpg)">
             <h1 class="special-h1">Sede Virtual</h1>
             <div class="container-fluid servicos-sede-virtual">
                 <div class="row">
@@ -383,7 +383,6 @@
                     <div class="space-50 visible-sm visible-xs"></div>
                     <div class="space-50 visible-sm visible-xs"></div>
                     <div class="space-50 visible-sm visible-xs"></div>
-                    <div class="space-50  visible-xs"></div>
                     <div class="space-50  visible-xs"></div>
 
 
@@ -445,9 +444,9 @@
                 </div>
             </div>
         </div>
-        
-         <div class="clearfix"></div>
-        <section class="section-home ptb-home gray-bg">
+
+        <div class="clearfix"></div>
+        <section class="section-home ptb-home gray-bg ipad-padding-left">
             <div class="container-fluid">
                 <div class="row-fluid">
                     <div class="col-lg-12 ">
@@ -467,9 +466,9 @@
                 </div>
             </div>
         </section>
-        
-<div class="clearfix"></div>
-        <section class="section-home ptb-home" style="background: url(assets/img/bg_porque_contratar.png) top center no-repeat; background-size: cover">
+
+        <div class="clearfix"></div>
+        <section class="section-home ptb-home ipad-padding-left" style="background: url(assets/img/bg_porque_contratar.png) top center no-repeat; background-size: cover">
             <div class="container-fluid">
                 <div class="row-fluid text-center">
                     <h2 class="heading-about white">Por que contratar os serviços<br>da Ciatos Contabilidade?</h2>
@@ -507,8 +506,84 @@
                 </div>
             </div>
         </section>
-       
-<div class="clearfix"></div>
+
+        <div class="clearfix"></div>
+
+        <div class="plano-banner relative" id="planos" style="background: #fff">
+
+            <section class="section-home ptb-home">
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <div class="col-lg-12 ">
+                            <div class="clearfix"></div>
+                            <h2 class="heading-about-inverse">Planos de<br>Contabilidade
+                                <hr>
+                            </h2>
+                            <p>Selecione um para ser redirecionado à página.</p>
+                            <div class="space-50"></div>
+                            <div class="padding-left">
+                                <?php for ($i = 0; $i <= 5; $i++) { ?>
+                                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                                        <img src="assets/img/1.png" alt="" title="" class="img-center img-responsive">
+                                        <div class="clearfix"></div>
+                                        <div class="text-center">
+                                            <a href="#modal" class="another-red-button hvr-float-shadow"><span>PLANO UM</span></a>
+                                        </div>
+                                    </div>
+                                <?php } ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
+
+        <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc" style="background: url(assets/img/bg_planos.jpg) top center no-repeat;background-size: cover !important;">
+            <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="col-lg-10 col-md-9 col-sm-6 col-xs-12 text-left">
+                        <h1 class="small-xs">Arquitetos</h1>
+                        <h6>Encontre o plano ideal para sua empresa de arquitetura!</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 ">
+                        <br>
+                        <img src="assets/img/casinha.png" alt="" title="" class="img-center img-responsive ">
+                    </div> 
+                </div>
+            </div>
+            <div class="clearfix"><br></div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="owl-carousel owl-theme owl-planos hidden-xs">
+                            <?php for ($i = 0; $i <= 5; $i++) { ?>
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="assets/img/plano-example.png" alt="" title="" class="img-responsive">
+                                    </a>
+                                </div>
+                            <?php } ?>
+                        </div>
+                        <div class=" owl-planos1 hidden-sm hidden-md hidden-lg hidden-xl">
+                            <?php for ($i = 0; $i <= 5; $i++) { ?>
+                                <div class="item">
+                                    <a href="#">
+                                        <img src="assets/img/plano-example.png" alt="" title="" class="img-responsive">
+                                    </a>
+                                </div>
+                            <?php } ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
         <section class="section-home ptb-home red-bg">
             <div class="container-fluid">
                 <div class="row-fluid">
@@ -530,7 +605,27 @@
         <?php require 'footer.php'; ?>
     </div>
     <div class="clearfix"></div>
-
+    <script src="assets/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="assets/plugins/remodal/remodal.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            $('.owl-planos').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                dots: false,
+                autoplayHoverPause: false,
+                autoplay: 5000,
+                smartSpeed: 700,
+                navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+            });
+          
+        });
+    </script>
 </body>
 
 </html>
