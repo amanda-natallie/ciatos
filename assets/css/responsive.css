@@ -368,7 +368,6 @@ footer {
 @media (width:375px){
     * {
         max-width: 375px;
-        border: 1px solid #900;
         box-shadow: none !important
     }
 }
